@@ -43,13 +43,13 @@ rm is a command to remove your file or even your directory. You can use -f if th
 
 7. apt-get
 
-This command differs distro-by-distro. In Debian based Linux distributions, to install, remove and upgrade any package we've Advanced Packaging Tool (APT) package manager. The apt-get command will help you installing the software you need to run in your Linux. It is a powerful command-line tool which can perform installation, upgrade, and even removing your software.
+This command differs distro-by-distro. In Debian based Linux distributions, to install, remove and upgrade any package we have Advanced Packaging Tool (APT) package manager. The apt-get command will help you installing the software you need to run in your Linux. It is a powerful command-line tool which can perform installation, upgrade, and even removing your software.
 
 > $ sudo apt-get update
 
 8. whereis
 
-You want to execute a command but you don't know where it is located.  Use where to find the location
+You want to execute a command but you don't know where it is located.  Use whereis to find the location.
 
 > $ whereis hdfs
 
