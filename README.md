@@ -7,7 +7,7 @@ This SuperUserDo is the most important command Linux newbies will use. Every sin
 
 2. ls (list)
 
-Just like the other, you often want to see anything in your directory. With list command, the terminal will show you all the files and folders of the directory that you're working in. There is one useful parameter that go with ls.  ls -l will give a "long" list which means that listed files and directories will have additional information including read/write permissions, size, date modified etc.
+With the list command, the terminal will show you all the files and folders of the directory that you're working in. There is one useful parameter that go with ls.  ls -l will give a "long" list which means that listed files and directories will have additional information including read/write permissions, size, date modified etc.
 
 3. cd
 
