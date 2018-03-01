@@ -20,14 +20,16 @@ Let's say I'm in /home directory and I want to move in usr directory which is al
 > /home/usr$
 
 4. mkdir
+
 Just changing directory is still incomplete. Sometimes you want to create a new folder or subfolder. You can use mkdir command to do that. Just give your folder name after mkdir command in your terminal.
 
 > ~$ mkdir folderName
 
 5. cp
+
 copy-and-paste is the important task we need to do to organize our files. Using cp will help you to copy-and-paste the file from terminal. First, you determine the file you want to copy and type the destination location to paste the file.
 
-> $ cp src des
+> $ cp source_file destination_folder
 
 Note: If you're copying files into the directory that requires root permission for any new file, then you'll need to use sudo command.
 
@@ -37,20 +39,21 @@ rm is a command to remove your file or even your directory. You can use -f if th
 
 > $ rm myfile.txt
 
+> $ rm -r directory/
+
 7. apt-get
 
 This command differs distro-by-distro. In Debian based Linux distributions, to install, remove and upgrade any package we've Advanced Packaging Tool (APT) package manager. The apt-get command will help you installing the software you need to run in your Linux. It is a powerful command-line tool which can perform installation, upgrade, and even removing your software.
 
-In other distributions, such as Fedora, Centos there are different package managers. Fedora used to have yum but now it has dnf. 
-
 > $ sudo apt-get update
-> $ sudo dnf update
 
-8. grep
+8. whereis
 
-You need to find a file but you don't remember its exact location or the path. grep will help you to solve this problem. You can use the grep command to help finding the file based on given keywords.
+You want to execute a command but you don't know where it is located.  Use where to find the location
 
-> $ grep user /etc/passwd
+> $ whereis hdfs
+
+hdfs: /usr/local/hadoop/bin/hdfs /usr/local/hadoop/bin/hdfs.cmd
 
 9. cat
 
