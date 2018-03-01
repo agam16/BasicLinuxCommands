@@ -1,5 +1,5 @@
 # BasicLinuxCommands
-This is a list of linux commands you should know.
+This is a list of useful linux commands you should know.
 
 1. sudo
 
