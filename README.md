@@ -63,14 +63,14 @@ As a user, you often need to view some of text or code from your script. Again, 
 
 10. gedit
 
-There are many text editors available on a linux system.  Most users pick their favourite and stick with it.  gedit is a very user friendly editor that can be used with woriking with different files
+There are many text editors available on a linux system.  Most users pick their favourite and stick with it.  gedit is a very user friendly editor that can be used to edit many types of text based files (we used it to edit the .xml files).
 
 > gedit alice.txt
 
-Remmber that with any text editor, if the file does not exist, the editor will create it for you.  So if you are looking to edit a file that you expect to have some text in it but then opens as empty, this usually means that you made a subtle spelling mistake in it (and so created a new file with no text inside).
+Remember that with any text editor, if the file does not exist, the editor will create it for you.  So if you are looking to edit a file that you expect to have some text in it but then opens as empty, this usually means that you made a subtle spelling mistake in it (and so created a new file with no text inside).
 
 11. reboot
 
 Often you would like to reboot your system to have changes you wrote take effect.  Make sure to precede this with sudo.
 
-> $ sudo poweroff
+> $ sudo reboo
