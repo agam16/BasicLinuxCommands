@@ -3,7 +3,9 @@ This is a list of useful linux commands you should know.
 
 1. sudo
 
-This SuperUserDo is the most important command Linux newbies will use. Every single command that needs root's permission, need this sudo command. You can use sudo before each command that requires root permissions -
+In any linux system, there needs to be an "administrator" that has access to everything and can do anything.  The username for this all-knowing-all-powerful user is "root" and this user can do <i>anything</i> (including completely destroying your system!).  
+
+Obviously, we don't want to give a regular user "root" privileges.  However, sometimes a regular user needs to do some of the tasks that "root" or the superuser does. To do this, we use sudo to allow other users to do some of the things that root can.  Sudo stands for <b>SuperUserDo</b> and is the most important command Linux newbies will use. Every single command that needs root's permission, needs to be preceded by the sudo command.
 
 2. ls (list)
 
