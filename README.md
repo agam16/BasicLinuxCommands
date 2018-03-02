@@ -73,4 +73,4 @@ Remember that with any text editor, if the file does not exist, the editor will 
 
 Often you would like to reboot your system to have changes you wrote take effect.  Make sure to precede this with sudo.
 
-> $ sudo reboo
+> $ sudo reboot
